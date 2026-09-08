@@ -1,29 +1,29 @@
 # NLP_projekt_7
 
-### Uruchomienie kontenerów Dockera
+### Starting Docker containers
 ```
 docker-compose up
 ```
 
-### Uruchomienie aplikacji
-1. Poczekać aż wstaną kontenery Dockera (Neo4j, Qdrant, Ollama)
-2. Przygotować środowisko wirtualne:
+### Starting the application
+1. Wait for the Docker containers (Neo4j, Qdrant, Ollama) to start.
+2. Prepare a virtual environment:
 ```
 python -m venv .venv
 .venv/Scripts/activate
 pip install uv
 uv sync
 ```
-3. Skopiować **.env.example** do **.env**. Warto eksperymentować z **OLLAMA_CHAT_MODEL**, **EMBEDDING_MODEL**, **OLLAMA_GRAPH_MODEL**. Resztę można zostawić domyślne (configi do baz danych muszą być zgodne z tymi ustawionymi w kontenerach Dockera w **docker-compose.yml**)
-4. Modele, które ustawiliśmy w **.env** w **OLLAMA_CHAT_MODEL** i **OLLAMA_GRAPH_MODEL** muszą być pobrane, np. aby pobrać **gemma:2b**: 
+3. Copy **.env.example** to **.env**. It is worth experimenting with **OLLAMA_CHAT_MODEL**, **EMBEDDING_MODEL**, and **OLLAMA_GRAPH_MODEL**. The remaining settings can be left at their default values (the database configuration must match the settings in **docker-compose.yml**).
+4. The models configured in **.env** under **OLLAMA_CHAT_MODEL** and **OLLAMA_GRAPH_MODEL** must be downloaded. For example, to download **gemma:2b**:
 ```
 docker exec -it ollama_llm ollama pull gemma:2b
 ```
-5. Uruchomić aplikację:
+5. Start the application:
 ```
 uv run streamlit run .\main.py
 ```
-6. UI dostępny na [localhost:8501](http://localhost:8501)
+6. The UI is available at [localhost:8501](http://localhost:8501).
 
 
 
