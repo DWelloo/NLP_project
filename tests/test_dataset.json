@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Co to jest pneumoencefalografia i kiedy ją wprowadzono?",
+    "ground_truth": "Pneumoencefalografia to historyczna metoda diagnostyczna polegająca na prześwietleniach RTG komór mózgowia, wprowadzona w 1919 roku. W metodzie tej wprowadzano tlen lub powietrze przez nakłucie do kanału rdzenia kręgowego, zastępując część płynu mózgowo-rdzeniowego."
+  },
+  {
+    "question": "Czym charakteryzuje się badanie USG?",
+    "ground_truth": "USG (ultrasonografia) wykorzystuje fale ultradźwiękowe do obrazowania struktur wewnętrznych ciała. Pierwsze doświadczenia diagnostyczne z USG przeprowadzono w 1945 roku."
+  },
+  {
+    "question": "Jak definiuje się rozdzielczość obrazu medycznego?",
+    "ground_truth": "Rozdzielczość obrazu medycznego może być określona jako najmniejsza odległość w milimetrach między dwoma punktami obrazu, które można wyraźnie uwidocznić."
+  },
+  {
+    "question": "Co to jest angiografia?",
+    "ground_truth": "Angiografia to metoda obrazowania naczyń krwionośnych z wykorzystaniem kontrastu radiologicznego. W angiografii wykonuje się prześwietlenie RTG. Metoda ta jest obecnie wypierana przez USG dopplerowskie i może być łączona z CT lub MRI."
+  },
+  {
+    "question": "Jakie formaty plików są używane w obrazowaniu medycznym?",
+    "ground_truth": "W obrazowaniu medycznym używa się formatów takich jak DICOM (Digital Imaging and Communications in Medicine), który jest standardem dla przechowywania i wymiany obrazów medycznych, zawierającym zarówno dane obrazowe jak i metadane pacjenta."
+  },
+  {
+    "question": "Jakie są objawy cukrzycy typu 2?",
+    "ground_truth": "Objawy cukrzycy typu 2 to wzmożone pragnienie, częste oddawanie moczu, zmęczenie, niewyraźne widzenie, wolno gojące się rany oraz nawracające infekcje."
+  },
+  {
+    "question": "Jakie są przeciwwskazania do stosowania aspiryny?",
+    "ground_truth": "Przeciwwskazania do stosowania aspiryny obejmują chorobę wrzodową żołądka, zaburzenia krzepnięcia krwi, astmę aspirynową, ciążę w III trymestrze oraz nadwrażliwość na salicylany."
+  },
+  {
+    "question": "Jakie leki wchodzą w interakcję z warfaryną?",
+    "ground_truth": "Warfaryna wchodzi w interakcję z wieloma lekami, w tym z NLPZ, antybiotykami (np. metronidazol, fluorochinolony), lekami przeciwgrzybiczymi (flukonazol), amiodaronem oraz suplementami witaminy K."
+  },
+  {
+    "question": "Jakie są standardy leczenia nadciśnienia tętniczego?",
+    "ground_truth": "Standardy leczenia nadciśnienia obejmują modyfikację stylu życia (dieta DASH, ograniczenie soli, aktywność fizyczna) oraz farmakoterapię lekami pierwszego rzutu: inhibitory ACE, sartany, blokery kanału wapniowego lub diuretyki tiazydowe."
+  },
+  {
+    "question": "Jakie są działania niepożądane statyn?",
+    "ground_truth": "Działania niepożądane statyn obejmują bóle mięśniowe (miopatie), podwyższenie enzymów wątrobowych, zaburzenia żołądkowo-jelitowe, a rzadko rabdomiolizę."
+  },
+  {
+    "question": "Jakie badania są stosowane w diagnostyce zawału serca?",
+    "ground_truth": "W diagnostyce zawału serca stosuje się EKG, oznaczenie troponin sercowych (troponina T i I), CK-MB, echokardiografię oraz koronarografię."
+  },
+  {
+    "question": "Jakie są objawy hipoglikemii?",
+    "ground_truth": "Objawy hipoglikemii obejmują drżenie rąk, pocenie się, kołatanie serca, głód, zawroty głowy, splątanie, zaburzenia widzenia, a w ciężkich przypadkach utratę przytomności."
+  },
+  {
+    "question": "Jakie są wskazania do stosowania metforminy?",
+    "ground_truth": "Metformina jest wskazana w leczeniu cukrzycy typu 2, szczególnie u pacjentów z nadwagą lub otyłością, jako lek pierwszego rzutu w monoterapii lub w skojarzeniu z innymi lekami przeciwcukrzycowymi."
+  },
+  {
+    "question": "Jakie są różnice między cukrzycą typu 1 a typu 2?",
+    "ground_truth": "Cukrzyca typu 1 jest chorobą autoimmunologiczną z bezwzględnym niedoborem insuliny, występuje głównie u młodych osób. Cukrzyca typu 2 charakteryzuje się insulinoopornością, występuje głównie u dorosłych z nadwagą i może być leczona lekami doustnymi."
+  },
+  {
+    "question": "Jakie są objawy udaru niedokrwiennego mózgu?",
+    "ground_truth": "Objawy udaru niedokrwiennego to nagłe osłabienie lub drętwienie twarzy, ramienia lub nogi po jednej stronie ciała, zaburzenia mowy, problemy ze wzrokiem, zawroty głowy, utrata równowagi oraz silny ból głowy."
+  },
+  {
+    "question": "Kiedy wykonano pierwsze prześwietlenie RTG?",
+    "ground_truth": "Pierwsze prześwietlenie RTG wykonano w 1896 roku."
+  },
+  {
+    "question": "Jakie są główne zastosowania obrazowania medycznego?",
+    "ground_truth": "Główne zastosowania obrazowania medycznego to wizualizacja (czy widoczne są symptomy choroby), analiza ilościowa (pomiary wielkości organów lub zmian chorobowych) oraz lokalizacja (gdzie znajduje się dana zmiana, jaką wybrać drogę dostępu)."
+  },
+  {
+    "question": "Jakie parametry wpływają na jakość obrazów medycznych?",
+    "ground_truth": "Na jakość obrazów medycznych składa się przynajmniej pięć parametrów: kontrast, rozdzielczość, stosunek sygnału użytecznego do szumów, poziom artefaktów oraz zniekształcenia przestrzenne."
+  },
+  {
+    "question": "Kiedy wprowadzono tomografię komputerową?",
+    "ground_truth": "Tomografię komputerową wprowadzono w 1972 roku."
+  },
+  {
+    "question": "Kiedy rozpoczęto stosowanie rezonansu magnetycznego w obrazowaniu?",
+    "ground_truth": "Obrazowanie rezonansu magnetycznego zostało wprowadzone w 1971 roku."
+  }
+]

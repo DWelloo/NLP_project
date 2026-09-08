@@ -1,0 +1,54 @@
+[project]
+name = "NLP_projekt"
+version = "0.1.0"
+description = ""
+requires-python = ">=3.11"
+
+# Your runtime dependencies
+dependencies = [
+    "streamlit",
+    "streamlit-tags",
+    "streamlit-agraph",
+    "python-dotenv",
+
+    "neo4j",
+    "qdrant-client",
+    
+    "langchain",
+    "langchain-huggingface",
+    "langchain_text_splitters",
+    "langchain_experimental",
+    "langchain_community",
+    "langchain-qdrant",
+    "langchain-neo4j",
+    "langchain_google_genai",
+    "langchain_openai",
+    "openai",
+
+    "google-generativeai",
+    "sentence-transformers",
+    
+    "llama-index",
+    "llama-index-embeddings-huggingface",
+    "llama-index-graph-stores-neo4j",
+    "llama-index-llms-google-genai",
+    "llama-index-vector-stores-qdrant",
+    
+    "spacy",
+    "matplotlib",
+    "python-louvain",
+    "pandas",
+    "networkx",
+
+    "markdown",
+    "ipykernel",
+    
+    "pymupdf",
+    "python-docx",
+    "pypdf",
+    "tiktoken",
+    
+    "ragas",
+    "datasets"
+]
+
